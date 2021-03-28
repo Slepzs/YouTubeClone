@@ -46,11 +46,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
-        Subscription::factory(20)->create([
+        Subscription::factory(50)->create([
             'channel_id' => $channel1->id
         ]);
 
-        Subscription::factory(20)->create([
+        Subscription::factory(50)->create([
             'channel_id' => $channel2->id
         ]);
 
